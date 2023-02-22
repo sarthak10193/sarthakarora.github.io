@@ -1,0 +1,19 @@
+# GitHub Pages Configuration
+# For more information, see: https://docs.github.com/en/github/working-with-github-pages/about-github-pages#configuration
+
+# Specify the theme to use for your GitHub Pages site
+theme: jekyll-theme-slate
+
+# Specify the base URL for your GitHub Pages site
+baseurl: /my-project
+
+# Specify any plugins you want to use with your GitHub Pages site
+plugins:
+  - jekyll-feed
+
+# Specify any additional Jekyll configuration settings you want to use with your GitHub Pages site
+# For more information, see: https://jekyllrb.com/docs/configuration/options/
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
